@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #efefef;
+  background: url(https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FhsudmlBigTransp.png?1556405770780);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "open sans", sans-serif;
+}
+
+h1 {
+  color: #674EA7;
+  font-weight: 700;
+  font-size: 7vw;
+  font-family: "press start 2p", sans-serif;
+  text-shadow: 1vw 1vw 0.5vw rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+}
+
+.emoji {
+  font-size: 8vw;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #333;
+  position: relative;
+  font-family: montserrat, sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  letter-spacing: -0.1vw;
+  font-weight: 500;
+  font-family: montserrat, sans-serif;
+}
+
+h3.formh3 {
+  font-size: 18px;
+  letter-spacing: -0.05vw;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 4vw;
+  letter-spacing: -0.2vw;
+  font-weight: 500;
+  font-family: montserrat, sans-serif;
+}
+
+a {
+  color: #0045BD;
+}
+
+h2 a, h2 a:hover {
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #0045BD;
+  border-color: #0045BD;
+}
+
+.linkIcon {
+  position: absolute;
+  line-height: 2;
+  left: -2vw;
+  font-size: 2vw;
+  cursor: pointer;
+  display: none;
+}
+
+.jumbotron {
+  position: relative;
+  background-color: rgba(239,239,239,0.95);
+  padding: 2em 4vw 2em 4vw;
+}
+
+section {
+  padding-top: 15%;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 10px solid rgba(0,0,0,0.5);
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.firsttron {
+  margin-top: 0%;
+}
+
+.media img {
+  max-width: 75px;
+  width: 25%;
+}
+
+a.mediaLink {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+  border-radius: 2em;
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.1));
+  transition-duration: 0.5s;
+  margin-bottom: 0.5em;
+}
+
+a.mediaLink:hover {
+  text-decoration: none;
+  background: rgba(0,0,0,0.1);
+  filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
+}
+
+.bottomBump {
+  position: relative;
+  height: 25vh;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  position: fixed;
+  padding: 1em 0 0 0;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+}
+
+footer p {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+@media (min-width: 768px) { 
+
+  h1 {
+    font-weight: 700;
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-weight: 800;
+    font-size: 4vw;
+    position: relative;
+  }
+
+  h2 a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  h2 a:hover {
+    text-decoration: none;
+    color: #333;
+  }
+
+  h3 {
+    font-size: 5vw;
+    letter-spacing: -0.1vw;
+    font-weight: 800;
+  }
+  
+  h3.formh3 {
+    font-size: 2vw;
+    letter-spacing: -0.05vw;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 2.5vw;
+    letter-spacing: -0.2vw;
+    font-weight: 800;
+  } 
+  
+}
+

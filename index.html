@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Using Free & Open Tools</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- import the webpage's javascript file --><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+  </head>  
+  <body>
+    <div class="container">
+      <h1>
+        <span class="emoji">&#x1F6F0;</span> VR Station 
+      </h1>
+
+
+<section id="checklistSection">
+      <div class="jumbotron">
+        <h2><a href="#checklistSection">Digital Media Considerations Checklist</a></h2>
+        
+        <h3 class="formh3">What is the main goal?</h3>
+        <dl>
+          <dt>Learn technical skills</dt>
+          <dd>Is the focus on learning the technical aspects of using digital equipment or software?</dd>
+          <dt>Think in new format or genre</dt>
+          <dd>Is the focus on designing or envisioning new ways to engage with information? E.g. converting a written piece into a visual medium.</dd>
+          <dt>Introduction to digital options or resources</dt>
+          <dd>Is the focus on introducing students to campus resources or options that the instructor feels they are unaware of?</dd>
+        </dl>
+        
+        <h3 class="formh3">How easily can people access the application?</h3>
+        <dl>
+          <dt>On-campus</dt>
+          <dd>How many computers have the software? Are those computers open to all students? 24 hours?</dd>
+          <dt>Off-campus</dt>
+          <dd>Can students work on their projects from home? How do they save their work when moving to different computers?</dd>
+          <dt>Different devices</dt>
+          <dd>Is the software only available on select platforms? Do web apps work on mobile devices? Are apps available across operating systems?</dd>
+          <dt>Web access</dt>
+          <dd>Can the software be accessed over the web? If it needs to be downloaded to a personal computer, how big is the file?</dd>
+          <dt>Offline access</dt>
+          <dd>Can the application be used offline? How can offline work be accomplished?</dd>
+        </dl>
+        
+        <h3 class="formh3">How big is the learning curve?</h3>
+        <p>The time investment should be proportional to the assignment and course goals. If the 'best' application for the project requires more time than it's worth- is it still the best?</p>
+        
+        <h3 class="formh3">How can new knowledge be built upon?</h3>
+        <dl>
+          <dt>Will they move to more robust applications?</dt>
+          <dd>Image editing in Google Drawings can be a good first learning experience before using Photoshop.</dd>
+          <dt>Will they use this software for other projects?</dt>
+          <dd>Camtasia Editor can be used to edit video or for creating screen captures and recording presentations.</dd>
+          <dt>What do they need to level up in their knowledge?</dt>
+          <dd>Share resources, create online guides with links, assemble YouTube playlists, etc...</dd>
+        </dl>
+        
+        <h3 class="formh3">Does the software prioritize accessbility?</h3>
+        <p>Accessibility includes both the ability to use the software as well as sharing/viewing/listening to projects created with it. Does the video editor allow for the creation of captions? Does the web app comform to WCAG 2.0 standards?</p>
+        
+        <h3 class="formh3">What are the costs of using the software?</h3>
+        <dl>
+          <dt>'Paid' software</dt>
+          <dd>Will students have access to it after graduation? For their personal computers?</dd>
+          <dt>'Free' software</dt>
+          <dd>How does the software company pay their bills? Will it move to a paid model? Are some features only available for premium? What features? Will those change?</dd>
+          <dt>Migrating projects to other applicatoins</dt>
+          <dd>How easy is it to get migrate to a new service? Can the files created be used in another application?</dd>
+          <dt>Subscriptions</dt>
+          <dd>If payment stops, is work lost? Will one-time payment models move to subscription?</dd>
+          <dt>Storage</dt>
+          <dd>Are web-based applications charging for storage? How many projects can be stored for free?</dd>
+          <dt>Accounts</dt>
+          <dd>Does a new account have to be created? Has the company had any data breeches? Can sign-in go through another service? Can guest/temporary accounts be used?</dd>
+        </dl>
+        
+      </div>
+</section>
+      
+<section id="accessibilitySection">      
+      <div class="jumbotron firsttron">
+        <h2><a href="#accessibilitySection">
+          Accessibility</a>
+        </h2>
+        <h3>
+          Search Widgets
+        </h3>
+        <p>
+          Check to see how accessible an application is by entering the name of the application here. Click the buttons below to search for each (or all) criterion. <i>This widget uses DuckDuckGo for privacy purposes. Feel free to replicate the searches in Google, Bing or your favorite search engine.</i>
+        </p>
+        <form>
+          <div class="form-row align-items-center">
+            <div class="col-auto">
+              <label class="label sr-only" for="softwareAcc">Software name</label>
+              <input type="text" class="form-control mb-2 software" id="softwareAcc" placeholder="Software name">
+            </div>
+          </div>
+          <div class="form-row align-items-center search">
+            <div class="col-auto">
+              <label class="label" for="accessibility"><a href="https://en.wikipedia.org/wiki/Accessibility#Disability,_information_technology_(IT)_and_telecommunications">accessibility</a></label>
+              <input type="text" class="form-control mb-2 name" id="accessibility">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mt-4 submit">Search</button>
+            </div>
+          </div>
+          <div class="form-row align-items-center search">
+            <div class="col-auto">
+              <label class="label" for="vpat"><a href="https://en.wikipedia.org/wiki/Voluntary_Product_Accessibility_Template">VPAT</a></label>
+              <input type="text" class="form-control mb-2 name" id="vpat">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mt-4 submit">Search</button>
+            </div>
+          </div>
+          <div class="form-row align-items-center search">
+            <div class="col-auto">
+              <label class="label" for="fiveoheight"><a href="https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973">508</a></label>
+              <input type="text" class="form-control mb-2 name" id="fiveoheight">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mt-4 submit">Search</button>
+            </div>
+          </div>
+
+        </form>
+        
+        <div class="row mt-5">
+          <div class="col-sm-12">
+            <h3>
+              Links &amp; Resources
+            </h3>
+            
+            <a href="https://webaim.org/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FWEBAIM.png?1556399410762" class="mr-3" alt="WebAIM: web accessibility in mind.">
+                <div class="media-body">
+                  <h4 class="mt-0">WebAIM</h4>
+                  WebAIM seeks to "to empower organizations to make their web content accessible to people with disabilities." The site has many tutorials and tools for helping you create accessible websites and web apps.
+                </div>
+              </div>
+            </a>
+              
+            <a href="http://ncdae.org/resources/cheatsheets/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FNCDAE.png?1556399222221" class="mr-3" alt="NCDAE: The National Center on Disability and Education">
+                <div class="media-body">
+                  <h4 class="mt-0">NDCAE Cheatsheets</h4>
+                  The National Center on Disability and Education one-page accessibility cheatsheets "have been developed to assist anyone who is creating accessible content." Available as PDF downloads and webpages. 
+                </div>
+              </div>
+            </a>
+              
+            <a href="http://teachingcommons.cdl.edu/access/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FCSUATI.png?1556399222354" class="mr-3" alt="The California State University Accessible Technology Initiative">
+                <div class="media-body">
+                  <h4 class="mt-0">CSU Accessible Technology Initiative</h4>
+                  <blockquote>
+                    All CSU programs, services, and activities should be accessible to all students, staff, faculty, and the general public.
+                  </blockquote>
+                </div>
+              </div>
+            </a>
+
+            <a href="http://libguides.humboldt.edu/dml/captions" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FHSUDML.png?1556399214588" class="mr-3" alt="HSU Digital Media Lab logo">
+                <div class="media-body">
+                  <h4 class="mt-0">Creating Captions</h4>
+                  Guide explaning what captions and transcripts are and why they are useful. Includes videos and tutorials on creating captions and transcripts.
+                </div>
+              </div>
+            </a>
+
+            <a href="http://wave.webaim.org/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2Fwave.png?1556411277493" class="mr-3" alt="HSU Digital Media Lab logo">
+                <div class="media-body">
+                  <h4 class="mt-0">WAVE</h4>
+                  WebAIM's Web Accessibility Evaluation tool helps you quickly see if your static webpage is WCAG 2.0 compliant. Includes color contrast analyzer. 
+                </div>
+              </div>
+            </a>
+
+
+          </div>
+        </div>
+      </div>
+</section>
+
+
+<section id="alternativeToSection">
+      <div class="jumbotron">
+        <h2><a href="#alternativeToSection">Alternative Options</a></h2>
+        <h3>
+          Search Widgets
+        </h3>
+        <p>
+          Check to see if there is another program that will do what you want by entering the name of an application in the search box. Click the buttons below to search for each (or all) criterion.
+        </p>
+        <form>
+          <div class="form-row align-items-center">
+            <div class="col-auto">
+              <label class="label sr-only" for="softwareAlt">Software name</label>
+              <input type="text" class="form-control mb-2 software" id="softwareAlt" placeholder="Software name">
+            </div>
+          </div>
+          <div class="form-row align-items-center search alternativeTo">
+            <div class="col-auto">
+              <label class="label" for="alternativeTo"><a href="https://alternativeto.net/">AlternativeTo</a></label>
+              <input type="text" class="form-control mb-2 name" id="alternativeTo">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mt-4 atSubmit">Search</button>
+            </div>
+          </div>
+          <div class="form-row align-items-center search osalt">
+            <div class="col-auto">
+              <label class="label" for="osalt"><a href="https://www.osalt.com/">Osalt.com</a></label>
+              <input type="text" class="form-control mb-2 name" id="osalt">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mt-4 osaltSubmit">Search</button>
+            </div>
+          </div>
+
+        </form>
+        
+        <div class="row mt-5">
+          <div class="col-sm-12">
+            <h3>
+              Links &amp; Resources
+            </h3>
+            
+            <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages" target="_blank" class="mediaLink">
+              <div class="media wiki">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FWIKI.png?1556399222253" class="mr-3" alt="Wikipedia logo">
+                <div class="media-body">
+                  <h4 class="mt-0">List of free &amp; open-source applications</h4>
+                  Wikipedia entry, "List of free and open-source software packages." Quite long, but not necessarily exhaustive list of OSS programs grouped by type. 
+                </div>
+              </div>
+            </a>
+            
+            <a href="http://libguides.humboldt.edu/dml/software" target="_blank" class="mediaLink">
+              <div class="media wiki">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FHSUDML.png?1556399214588" class="mr-3" alt="HSU Digital Media Lab logo">
+                <div class="media-body">
+                  <h4 class="mt-0">Free &amp; open-source digital media applications</h4>
+                  HSU Digital Media Lab list of recommended applications for video, audio and graphic design. 
+                </div>
+              </div>
+            </a>
+
+
+          </div>
+        </div>
+        
+      </div>
+</section>
+
+
+<section id="literacySection">
+      <div class="jumbotron">
+        <h2><a href="#literacySection">Digital Literacy</a></h2>
+        
+        <div class="row mt-5">
+          <div class="col-sm-12">
+            <h3>
+              Links &amp; Resources
+            </h3>
+            <a href="https://learning.mozilla.org/en-US/web-literacy/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FWEBLIT.png?1556399222034" class="mr-3" alt="Web literacy map screenshot">
+                <div class="media-body">
+                  <h4 class="mt-0">Web Literacy (Mozilla)</h4>
+                  <blockquote>
+                    A framework for entry-level web literacy & 21st Century skills. Explore the map by selecting what you want to learn more about, to see definitions and activities.
+                  </blockquote>
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://clalliance.org/resources/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FconnectedLearning.png?1556400252001" class="mr-3" alt="Connected Learning Alliance Logo">
+                <div class="media-body">
+                  <h4 class="mt-0">Connected Learning</h4>
+                  Resources from the Connected Learning Alliance, including reports and toolkits.  
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://districtdispatch.org/wp-content/uploads/2013/01/2012_OITP_digilitreport_1_22_13.pdf" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FALA.png?1556402340615" class="mr-3" alt="American Library Association Logo">
+                <div class="media-body">
+                  <h4 class="mt-0">Digital Literacy, Libraries, and Public Policy</h4>
+                  ALA Digital Literacy Task Force 2013 report.   
+                </div>
+              </div>
+            </a>
+
+
+          </div>
+        </div>
+        
+      </div>
+</section>
+
+
+<section id="vrSection">
+      <div class="jumbotron">
+        <h2><a href="#vrSection">Virtual Reality</a></h2>
+        
+        <div class="row mt-5">
+          <div class="col-sm-12">
+            <h3>
+              Links &amp; Resources
+            </h3>
+            <a href="https://glitch.com/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FglitchSmall.png?1556409616277" class="mr-3" alt="Glitch logo">
+                <div class="media-body">
+                  <h4 class="mt-0">Glitch</h4>
+                  Web hosting and development platform centered around remixing and collaboration. Integrates with GitHub. Publish instantly. Plenty of A-frame templates to remix.
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://aframe.io/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FaframeSmall.png?1556409614413" class="mr-3" alt="A-frame screenshot">
+                <div class="media-body">
+                  <h4 class="mt-0">A-frame</h4>
+                  Create web-based VR using the most cross-platform system to date. Coding skills required: basic HTML to get started, JS expertise for a deep dive.
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://www.tinkercad.com/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FtinkercadSmall.png?1556409612426" class="mr-3" alt="Tinkercad logo">
+                <div class="media-body">
+                  <h4 class="mt-0">Tinkercad</h4>
+                  Create web-based 3D models. Features are limited, but simple projects are a snap and it's an easy to use gateway into creating 3D models.
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://www.blender.org/" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2Fblender.png?1556409069912" class="mr-3" alt="Blender Logo">
+                <div class="media-body">
+                  <h4 class="mt-0">Blender</h4>
+                    <blockquote>
+                      Free & Open Source 3D creation. Free to use for any purpose, forever.
+                  </blockquote>   
+                  Also great for video editing!
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://sketchfab.com" target="_blank" class="mediaLink">
+              <div class="media">
+                <img src="https://cdn.glitch.com/e3ab063a-73e3-4e0a-b893-5eeff3f9e9b7%2FsketchfabSmall.png?1556409611105" class="mr-3" alt="Sketchfab Logo">
+                <div class="media-body">
+                  <h4 class="mt-0">Sketchfab</h4>
+                  Host your 3D models and download remixable models for your own project. Supports animations and augmented reality previews (via the mobile app). 
+                </div>
+              </div>
+            </a>
+
+
+          </div>
+        </div>
+        
+      </div>
+</section>
+      
+    </div>
+    <div class="bottomBump"></div>
+    
+    <div class="container-fluid">
+      <footer>
+        <p><a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a> Tim Miller, 2019</p>
+        <p><a href="https://digital.sandiego.edu/symposium/2019/2019/24/">Digital Initiatives Symposium, 2019</a></p>
+        <p> <a href="https://docs.google.com/presentation/d/e/2PACX-1vTGwcd6ZSTT-HJdZdc9iKxAG7Gy8b9YyFBgibrzC6TARMEu2YCKnKNB4CUfHxn-wUQ2zBEebR4XzNJn/pub?start=false&loop=false&delayms=3000">Presentation Slides</a></p>
+        <p>Humboldt State University <a href="http://libguides.humboldt.edu/dml">Digital Media Lab</a></p>
+      </footer>
+    </div>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
